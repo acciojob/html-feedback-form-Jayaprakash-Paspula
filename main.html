@@ -7,10 +7,21 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	
+<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<h1>Feedback Form</h1>
+	<lable for="Name">Enter your name here</lable>
+	<input minlength="3" maxlength="50" required type="text" id="name" name="name" placeholder="Enter ur name"><br><br>
+	<lable for="portfolio">Your portfolio here</lable>
+	<input required id="portfolio" type="text" name="portfolio" placeholder="Enter ur portfolio"> <br><br>
+	<lable for="color">Select ur favcolor</lable>
+	<input type="color" name="favcolor" id="favcolor"><br><br>
+	<lable for="range">Slide the bar on how much u love the color that u selected</lable>
+	<input requied minvalue="1" maxvalue="100" type="range" name="likeness" id="likeness">
+	<br><br>
+	<button>Submit</button>
 </body>
 
 </html>
